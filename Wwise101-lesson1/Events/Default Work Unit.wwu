@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E562B7DA-4CED-4F6D-B145-95AD55FC3D57}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E562B7DA-4CED-4F6D-B145-95AD55FC3D57}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E562B7DA-4CED-4F6D-B145-95AD55FC3D57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_IceGem_Player" ID="{A8D52544-3CC2-4992-A3A1-FD66CE033AC3}">
+					<ChildrenList>
+						<Action Name="" ID="{1F51B990-1BBF-4B27-BABC-1EBEE8AC96BF}" ShortID="315137000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IceGem_Blast" ID="{158747AF-5866-4322-833A-705D79DBABCC}" WorkUnitID="{17FFC6EB-8FCA-4202-AF9C-8519DF9442A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

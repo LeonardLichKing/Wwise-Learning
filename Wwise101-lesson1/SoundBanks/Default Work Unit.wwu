@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FE09104B-3BBF-47C8-9526-A88FD4430449}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{FE09104B-3BBF-47C8-9526-A88FD4430449}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FE09104B-3BBF-47C8-9526-A88FD4430449}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4D6688B8-EF23-48ED-B137-658240F4A537}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Fire_IceGem_Player" ID="{A8D52544-3CC2-4992-A3A1-FD66CE033AC3}" WorkUnitID="{E562B7DA-4CED-4F6D-B145-95AD55FC3D57}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

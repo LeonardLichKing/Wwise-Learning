@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{17FFC6EB-8FCA-4202-AF9C-8519DF9442A5}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{17FFC6EB-8FCA-4202-AF9C-8519DF9442A5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{17FFC6EB-8FCA-4202-AF9C-8519DF9442A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="IceGem_Blast" ID="{158747AF-5866-4322-833A-705D79DBABCC}" ShortID="339394631">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A316216-B729-451E-BDFE-37C8A2AE93E2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C7F0B580-EF84-46F7-A50B-3250EC88BBA3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="IceGem_Blast" ID="{59CF3A6F-A7D5-4155-BCB9-D0FF520FB392}">
+							<Language>SFX</Language>
+							<AudioFile>IceGem_Blast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="323581376"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="IceGem_Blast" ID="{59CF3A6F-A7D5-4155-BCB9-D0FF520FB392}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
